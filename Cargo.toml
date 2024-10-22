@@ -1,0 +1,11 @@
+[package]
+name = "unit-tracing"
+description = "Initialize tracing for unit tests"
+version = "0.1.0"
+authors = ["Bells307"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/bells307/unit-tracing"
+
+[dependencies]
+tracing-subscriber = { version = "0.3.18", features = ["fmt"] }
